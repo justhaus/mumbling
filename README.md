@@ -15,3 +15,6 @@ popd
 bash mumbling/run.sh
 ```
 
+## INI Changes
+
+Keep in mind that when the .ini file changes the container image must be rebuilt in order to see changes, since the .ini file isn't used flat out of the source tree, but instead baked into the container image as part of the build.sh step.
